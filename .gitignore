@@ -1,3 +1,6 @@
+#### environment
+node_modules
+
 #### for Windows
 Thumbs.db
 Thumbs.db:encryptable
@@ -6,4 +9,3 @@ ehthumbs_vista.db
 
 #### for Mac
 .DS_Store
-
