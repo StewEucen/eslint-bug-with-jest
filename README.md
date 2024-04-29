@@ -309,7 +309,7 @@
 
 ## Side Effect
 
-* There is no side effects by the fixing, because both codes return same result.
+* There is no side effects caused by the fixing, because both codes return the same result.
 
   ```js
   fs.readFile(...)
