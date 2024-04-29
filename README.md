@@ -14,7 +14,7 @@
 1. Clone this repository in your local machine.
 
     ```sh
-    git clone git@github.com:StewEucen/eslint-bug-with-jest.git
+    git clone https://github.com/StewEucen/eslint-bug-with-jest.git
     ```
 
 2. Set up packages.
