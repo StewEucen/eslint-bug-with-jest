@@ -4,7 +4,7 @@
   "description": "ESLint bug reproduction kit",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "export NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\"; jest --forceExit"
   },
   "author": "",
   "license": "UNLICENSED",
