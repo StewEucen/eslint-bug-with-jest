@@ -324,4 +324,4 @@
 
 ## Note
 
-* When the implementation part to confirm instance of Promise in `@humanwhocodes/retry` is modified in `0.2.4` or later versions in future, this repository will  not reproduce throwing an exception.
+* If the implementation part to confirm instance of Promise in `@humanwhocodes/retry` is modified in `0.2.4` or later versions in the future, this repository will not reproduce throwing an exception.
