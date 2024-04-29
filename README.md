@@ -242,7 +242,7 @@
                   ...
 
   -                return retrier.retry(() => fs.readFile(filePath, { encoding: "utf8", signal: controller.signal })
-  +                return retrier.retry(async() => fs.readFile(filePath, { encoding: "utf8", signal: controller.signal })
+  +                return retrier.retry(async () => fs.readFile(filePath, { encoding: "utf8", signal: controller.signal })
                       .then(text => {
                         ...
                       }))
