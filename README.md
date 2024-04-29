@@ -6,7 +6,7 @@
 
 ## Background
 
-* When invoke `ESLint#readFiles()` with Jest in a project constructed as CommonJS, an exception will be thrown.
+* When invoking `ESLint#readFiles()` with Jest in a project that was constructed using CommonJS, an exception will be thrown.
 * This repository has the minimum configuration that reproduces the exception.
 
 ## Steps to Reproduce
