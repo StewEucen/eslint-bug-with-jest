@@ -261,7 +261,9 @@
 
 * The function given as argument to `retrier.retry()` is not an async function in original code.
 * When we change it to an async function, an instance of `Promise` will be created in `retrier.retry()` on invocation. It is not the same `Promise` instance created by `fs.readFile()`.
-* Both the `Promise` to be created by `fn()` and `Promise` in `result instanceof Promise` are created from the same declaration, thus we can avoid throwing `new Error("Result is not a promise.")`.
+* When `fn` is async function, `fn()` create a `Promise` instance according to context on invoking.
+* `result = fn()` and `result instanceof Promise` are in the same context, thus both expressions use the same `Promise`.
+* Since `result instanceof Promise` is true, can avoid to throw the incorrect Error.
 
   https://github.com/humanwhocodes/retry/blob/retry-v0.2.3/src/retrier.js#L183-L196
 
