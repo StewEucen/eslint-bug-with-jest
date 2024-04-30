@@ -16,6 +16,7 @@
     ```
     Node version: 20.12.2
     npm version: 10.5.0
+    ESLint version: 9.1.1
     ```
 
 1. Clone this repository in your local machine.
