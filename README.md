@@ -227,7 +227,7 @@
   ```
 
 * See the image below. These `Promise` instances used in actual code are not created from the same `Promise` declaration.
-* `Retrier#retry()` uses `Promise` declared in `lib.es2015.symbol.wellknown.d.ts`
+* `Retrier#retry()` uses `Promise` declared in `lib.es2015.iterable.d.ts`
 * `fs.readFile()` uses `Promise` declared in `lib.es5.d.ts`
 
   ![Reference of Promise](./reference-of-promise.png)
