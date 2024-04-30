@@ -11,6 +11,13 @@
 
 ## Steps to Reproduce
 
+0. Environment
+
+    ```
+    Node version: 20.12.2
+    npm version: 10.5.0
+    ```
+
 1. Clone this repository in your local machine.
 
     ```sh
